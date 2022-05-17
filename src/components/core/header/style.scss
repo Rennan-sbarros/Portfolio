@@ -1,0 +1,21 @@
+
+.navbar{
+    height: 3.75rem;
+    background-color: $azulEscuro;
+}
+
+.navbar-brand{
+    color: $verde;
+    font-family: Righteous;
+    font-size: 2.188rem;
+}
+
+.navbar-collapse{
+
+    & .nav-link{
+        color: $branco;
+        font-size: 1.5rem;
+        font-family: Work Sans;
+        font-weight: 500;
+    }
+}
