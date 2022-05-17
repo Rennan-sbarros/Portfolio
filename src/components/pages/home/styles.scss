@@ -1,0 +1,65 @@
+.container_geral {
+  height: 45rem;
+  padding-top: 0.5rem;
+}
+
+.conteudo {
+  margin: 0 auto;
+  padding: 1.875rem 0 0;
+  text-align: center;
+}
+
+.card_conteudo {
+  margin: 0 auto;
+  display: table;
+  background: #252A2E;
+  box-shadow: 1rem 1rem 3rem rgba(25, 182, 77, 0.2);
+  border-radius: 1rem;
+  padding-bottom: 1.25rem;
+  padding-top: 0rem;
+  margin-top: 9.3rem;
+}
+
+.imagem_perfil {
+  height: 20rem;
+  margin-bottom: 1.9rem;
+  margin-top: -12rem;
+}
+
+.card_text {
+  margin-bottom: 1.9rem;
+  color: $branco;
+
+  & h1{
+    font-size: 3rem;
+    font-family: Righteous;
+  }
+
+  & h2{
+    color: $branco;
+    font-size: 1.4rem;
+  }
+}
+
+.redes_sociais {
+  margin: 0 auto;
+  display: inline-flex;
+  gap: 0.6rem;
+
+  & li a{
+    font-size: 1.5rem;
+    color: $branco;
+    width: 2.9rem;
+    height: 2.9rem;
+    line-height: 2.7rem;
+    text-align: center;
+    display: block;
+    border-radius: 100%;
+    border: 0.063rem solid $branco;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
