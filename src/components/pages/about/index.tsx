@@ -3,8 +3,6 @@ export function About() {
     return (
         <div className="content">
 
-            
-
             <div className="card text-center card-main">
             <h1 className="title">Sobre mim</h1>
                 <div className="card-body">
