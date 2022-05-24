@@ -1,10 +1,3 @@
-.container{
-    height: 32rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
 .title{
     text-align: center;
@@ -14,32 +7,51 @@
 }
 
 .swiper {
-    width: 100%;
-    height: 10.5rem;
+    width: 95%;
+    padding-top: 2rem;
   }
   
   .swiper-slide {
     background-color: $azulEscuro;
     padding: 1rem;
+    border-radius: 1rem;
     
-    & h3 {
-        font-size: 24px;
-        font-family: Righteous;
-        color: $rosa;
-        font-weight: 600;
-    }
+    & .cards{
 
-    & p {
-        font-size: 14px;
-        color: $branco;
-        font-weight: 500;
+      & img{
+        width: 100%; 
+        height: 191px;
+      }
+
+      & .card-info{
+        padding-top: 1rem;
+
+        & .card-titulo {
+          font-size: 24px;
+          font-family: Righteous;
+          color: $rosa;
+          font-weight: 500;
+        }
+  
+        & p {
+            font-size: 1rem;
+            color: $branco;
+            font-weight: 500;
+        }
+      }
     }
   }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  .botoes{
+    margin: 0 auto;
+    display: inline-flex;
+    gap: 0.5rem;
+
+    & .botao{
+      background-color: $azul;
+      text-decoration: none;
+      color: $branco;
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
   }
-  

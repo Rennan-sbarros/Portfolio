@@ -1,33 +1,13 @@
-import { useEffect, useState } from "react";
-import api from "../../../services/api";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination} from 'swiper';
 
 import "swiper/css";
 import "swiper/css/pagination";
 
-interface Repository {
-    name: string;
-    description: string;
-    html_url: string;
-}
-
 export function Projects(){
 
-    const [repositories, setRepositories] = useState<Repository[]>([]);
-
-    useEffect(() => {
-        api
-            .get("/users/Rennan-sbarros/repos").then((response) => {
-                setRepositories(response.data);
-            })
-            .catch((error: string) => {
-                console.error("Ops! Ocorreu um erro" + error)
-            })
-    })
-
     return (
-        <div className="container">
+        <div className="container_geral">
             <h1 className="title">Projetos</h1>
             <Swiper
                 slidesPerView={3}
@@ -40,19 +20,24 @@ export function Projects(){
                 modules={[Pagination]}
                 className="mySwiper"
                 > 
-                {repositories?.map((repositorie) => (
-                    <SwiperSlide>
-                        <h3>
-                            {repositorie.name}
-                        </h3>
-                        <p>
-                            {repositorie.description}
-                        </p>
-                        
-                        <a href={repositorie.html_url}></a>
-                        
-                    </SwiperSlide>
-                ))}
+                <SwiperSlide>
+                
+                <div className="cards-geral">
+                <div className="cards">
+                    <img src="" alt=""></img>
+                    <div className="card-info">
+                        <h4 className="card-titulo">Em breve</h4>
+                        <p>Descrição em breve.</p>
+                        <div className="botoes">
+                            <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a>
+                            <a className="btn btn-primary botao" href="#"  target="_blank" rel="noreferrer">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+                </SwiperSlide>
+                
             </Swiper>
              
         </div>
