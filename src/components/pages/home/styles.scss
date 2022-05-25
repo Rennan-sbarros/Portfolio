@@ -1,12 +1,8 @@
-.container_geral {
-  height: 45rem;
-  padding-top: 0.5rem;
-}
+.container_home {
+  height: 47rem;
+  padding-top: 4rem;
 
-.container {
-  padding: 1.875rem 0 0;
-
-  & .content{
+  & .content_home{
     --bs-gutter-x: 10rem;
 
     & .card_text {

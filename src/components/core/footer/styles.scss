@@ -1,0 +1,17 @@
+.footer-container{
+    border-top: 0.1rem solid $azul;
+    background-color: $azulEscuro;
+
+    & p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: $branco;
+        margin-bottom: 0;
+    }
+
+    & span{
+        color: $verde;
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+}

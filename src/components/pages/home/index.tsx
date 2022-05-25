@@ -3,10 +3,10 @@ import { FaLinkedinIn, FaGithub, FaTelegram, FaWhatsapp, FaInstagram } from 'rea
 
 export function Home() {
     return (
-        <section className="container_geral">
+        <section>
 
-            <div className="container">
-                <div className="row align-items-center content">
+            <div className="container container_home">
+                <div className="row align-items-center content_home">
                     
                     <div className="col-md-6">
                         <div className="card_text">

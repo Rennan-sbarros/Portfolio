@@ -1,12 +1,15 @@
+.container_projects{
+  height: 43rem;
 
-.title{
+  & .title{
     text-align: center;
     font-family: Righteous;
     font-size: 3.4rem;
-    color: $branco;
-}
+    color: $azul;
+    padding-bottom: 3rem;
+  }
 
-.swiper {
+  & .swiper {
     width: 95%;
     padding-top: 2rem;
   }
@@ -41,7 +44,8 @@
       }
     }
   }
-  .botoes{
+
+  & .botoes{
     margin: 0 auto;
     display: inline-flex;
     gap: 0.5rem;
@@ -55,3 +59,8 @@
       font-weight: 500;
     }
   }
+}
+
+
+
+

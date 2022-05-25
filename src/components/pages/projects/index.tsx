@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 export function Projects(){
 
     return (
-        <div className="container_geral">
+        <div className="container_projects">
             <h1 className="title">Projetos</h1>
             <Swiper
                 slidesPerView={3}

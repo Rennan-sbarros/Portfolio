@@ -9,11 +9,11 @@ import typescript from "../../../assets/icons/typescript.png";
 
 export function Skills() {
     return (
-        <section className="container container-geral">
+        <section className="container container-skills">
 
             <h1 className="title">Habilidades</h1>
 
-            <div className="row cards-skills">
+            <div className="row cards">
                 <div className="col p-4 item-card">
                     <img src={angular} alt="Angular"/>
                     <h2>Angular</h2>

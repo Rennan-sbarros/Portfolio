@@ -2,11 +2,11 @@ import imagem_perfil from "../../../assets/images/imagem_perfil.svg";
 
 export function About() {
     return (
-        <div className="content">
+        <div className="content-about">
             <div className="container card card-main">
                 <div className="row align-items-center">
                     
-                    <div className="col-md-4 text-center">
+                    <div className="col-md-4">
                         <img src={imagem_perfil} alt="Foto de perfil de Rennan" />
                     </div>
 

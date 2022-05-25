@@ -1,24 +1,34 @@
-.container-geral{
+.container-skills{
     height: 40rem;
-}
-.cards-skills {
-    align-items: center;
-    text-align: center;
-    gap: 0.8rem;
-    max-width: 1000px;
-    margin: 0 auto;
-    justify-content: center;
-}
-
-.item-card{
-    background-color: $branco;
-    border-radius: 0.6rem;
-
-    & h2{
-        padding-top: 0.4rem;
-        font-size: 1.5rem;
-        font-weight: 600;
-        color: $azulEscuro;
+    
+    & .title{
+        text-align: center;
+        font-family: Righteous;
+        font-size: 3.4rem;
+        color: $azul;
+        padding-bottom: 4rem;
+    }
+    
+    & .cards {
+        align-items: center;
+        text-align: center;
+        gap: 0.8rem;
+        max-width: 1000px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    
+    & .item-card{
+        background-color: $branco;
+        border-radius: 0.6rem;
+    
+        & h2{
+            padding-top: 0.4rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: $azulEscuro;
+        }
+        
     }
     
 }
