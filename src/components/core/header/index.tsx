@@ -3,7 +3,7 @@
 export function Header() {
     return (
         <header>
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg fixed-top">
                 <div className="container-fluid">
 
                     <a className="navbar-brand" >Rennan</a>
