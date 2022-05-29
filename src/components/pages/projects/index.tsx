@@ -31,8 +31,8 @@ export function Projects(){
                                 <h4 className="card-titulo">Em breve 1</h4>
                                 <p>Descrição em breve.</p>
                                 <div className="botoes">
-                                    <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a>
-                                    <a className="btn btn-primary botao" href="#"  target="_blank" rel="noreferrer">GitHub</a>
+                                    {/* <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a>
+                                    <a className="btn btn-primary botao" href="#"  target="_blank" rel="noreferrer">GitHub</a> */}
                                 </div>
                             </div>
                         </div>
@@ -44,8 +44,8 @@ export function Projects(){
                                 <h4 className="card-titulo">Em breve 2</h4>
                                 <p>Descrição em breve.</p>
                                 <div className="botoes">
-                                    <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a>
-                                    <a className="btn btn-primary botao" href="#"  target="_blank" rel="noreferrer">GitHub</a>
+                                    {/* <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a>
+                                    <a className="btn btn-primary botao" href="#"  target="_blank" rel="noreferrer">GitHub</a> */}
                                 </div>
                             </div>
                         </div>
@@ -57,8 +57,8 @@ export function Projects(){
                                 <h4 className="card-titulo">Em breve 3</h4>
                                 <p>Descrição em breve.</p>
                                 <div className="botoes">
-                                    <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a>
-                                    <a className="btn btn-primary botao" href="#"  target="_blank" rel="noreferrer">GitHub</a>
+                                    {/* <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a>
+                                    <a className="btn btn-primary botao" href="#"  target="_blank" rel="noreferrer">GitHub</a> */}
                                 </div>
                             </div>
                         </div>
@@ -70,8 +70,8 @@ export function Projects(){
                                 <h4 className="card-titulo">Em breve 4</h4>
                                 <p>Descrição em breve.</p>
                                 <div className="botoes">
-                                    <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a>
-                                    <a className="btn btn-primary botao" href="#"  target="_blank" rel="noreferrer">GitHub</a>
+                                    {/* <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a>
+                                    <a className="btn btn-primary botao" href="#"  target="_blank" rel="noreferrer">GitHub</a> */}
                                 </div>
                             </div>
                         </div>
@@ -83,8 +83,8 @@ export function Projects(){
                                 <h4 className="card-titulo">Em breve 5</h4>
                                 <p>Descrição em breve.</p>
                                 <div className="botoes">
-                                    <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a>
-                                    <a className="btn btn-primary botao" href="#"  target="_blank" rel="noreferrer">GitHub</a>
+                                    {/* <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a>
+                                    <a className="btn btn-primary botao" href="#"  target="_blank" rel="noreferrer">GitHub</a> */}
                                 </div>
                             </div>
                         </div>
@@ -96,8 +96,8 @@ export function Projects(){
                                 <h4 className="card-titulo">Em breve 6</h4>
                                 <p>Descrição em breve.</p>
                                 <div className="botoes">
-                                    <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a>
-                                    <a className="btn btn-primary botao" href="#"  target="_blank" rel="noreferrer">GitHub</a>
+                                    {/* <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a>
+                                    <a className="btn btn-primary botao" href="#"  target="_blank" rel="noreferrer">GitHub</a> */}
                                 </div>
                             </div>
                         </div>

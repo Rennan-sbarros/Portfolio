@@ -12,6 +12,8 @@
     "@types/node": "^16.11.36",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
+    "autoprefixer": "10.4.5",
+    "postcss-preset-env": "7.0.0",
     "axios": "^0.27.2",
     "bootstrap": "^5.1.3",
     "node-sass": "^7.0.1",
@@ -20,7 +22,8 @@
     "react-dom": "^18.1.0",
     "react-icons": "^4.3.1",
     "react-scripts": "5.0.1",
-    "swiper": "^8.1.5",
+    "react-swiper": "^0.1.5",
+    "swiper": "^8.1.6",
     "typescript": "^4.6.4",
     "web-vitals": "^2.1.4"
   },
