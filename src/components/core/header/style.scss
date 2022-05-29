@@ -21,3 +21,6 @@
         font-weight: 500;
     }
 }
+.nav-item > .active {
+    border-bottom: 1px solid $branco;
+}

@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 export function Projects(){
 
     return (
-        <div className="container_projects">
+        <div className="container_projects" id='projects'>
             <h1 className="title">Projetos</h1>
             
                 <Swiper

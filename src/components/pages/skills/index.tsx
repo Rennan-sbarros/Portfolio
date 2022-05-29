@@ -9,7 +9,7 @@ import typescript from "../../../assets/icons/typescript.png";
 
 export function Skills() {
     return (
-        <section className="container container-skills">
+        <section className="container container-skills" id="skills">
 
             <h1 className="title">Habilidades</h1>
 

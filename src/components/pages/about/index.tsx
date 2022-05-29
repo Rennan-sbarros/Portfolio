@@ -2,7 +2,7 @@ import imagem_perfil from "../../../assets/images/imagem_perfil.svg";
 
 export function About() {
     return (
-        <div className="content-about">
+        <div className="content-about" id="about">
             <div className="container card card-main">
                 <div className="row align-items-center">
                     
