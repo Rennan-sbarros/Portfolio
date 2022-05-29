@@ -4,8 +4,10 @@ import { About } from "./components/pages/about";
 import { Home } from "./components/pages/home";
 import { Projects } from "./components/pages/projects";
 import { Skills } from "./components/pages/skills";
+import ScrollArrow from "./hooks/scrollArrow";
 
 function App() {
+
   return (
     <>
       <Header />
@@ -14,6 +16,7 @@ function App() {
       <Skills />
       <Projects />
       <Footer />
+      <ScrollArrow />
     </>
   );
 }
