@@ -1,6 +1,6 @@
 .container_home {
   height: 53rem;
-  padding-top: 8rem;
+  padding-top: 10rem;
 
   & .content_home{
     --bs-gutter-x: 10rem;
@@ -44,6 +44,7 @@
       list-style: none;
       padding: 0;
     }
+    
     .image_dev{
       width: 100%;
     }
