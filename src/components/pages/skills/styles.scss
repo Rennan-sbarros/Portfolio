@@ -21,7 +21,7 @@
     & .item-card{
         background-color: $branco;
         border-radius: 0.6rem;
-    
+        padding: 1.5rem;
         & h2{
             padding-top: 0.4rem;
             font-size: 1.5rem;
@@ -31,4 +31,27 @@
         
     }
     
+}
+
+
+@media screen and (max-width: 991.98px) {
+    .container-skills{
+        height: 32rem;
+        
+        & .title{
+            font-size: 3rem;
+            padding-bottom: 2.5rem;
+        }
+        
+        & .cards {
+            gap: 0.5rem;
+        }
+        
+        & .item-card{
+            padding: 1.1rem;
+            & h2{
+                font-size: 0.9rem;
+            }
+        }
+    }
 }

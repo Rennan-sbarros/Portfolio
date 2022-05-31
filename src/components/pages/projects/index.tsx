@@ -17,9 +17,16 @@ export function Projects(){
             <h1 className="title">Projetos</h1>
             
                 <Swiper
-                    slidesPerView={3}
+                    breakpoints={{
+                        767.98:{
+                            slidesPerView: 3,  
+                            slidesPerGroup: 3,
+                            loop: true
+                        }
+                    }}
+                    slidesPerView= {1}
+                    slidesPerGroup= {1}
                     spaceBetween={30}
-                    slidesPerGroup={3}
                     loop={true}
                     loopFillGroupWithBlank={true}
                     pagination={{
@@ -93,20 +100,6 @@ export function Projects(){
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="cards">
-                            <img src="" alt=""></img>
-                            <div className="card-info">
-                                <h4 className="card-titulo">Em breve</h4>
-                                <p>Descrição em breve.</p>
-                                <div className="botoes">
-                                    {/* <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a>
-                                    <a className="btn btn-primary botao" href="#"  target="_blank" rel="noreferrer">GitHub</a> */}
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                   
                 </Swiper>
         </div>
         

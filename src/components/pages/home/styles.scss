@@ -1,6 +1,6 @@
 .container_home {
-  height: 47rem;
-  padding-top: 6rem;
+  height: 53rem;
+  padding-top: 8rem;
 
   & .content_home{
     --bs-gutter-x: 10rem;
@@ -44,13 +44,131 @@
       list-style: none;
       padding: 0;
     }
-    
+    .image_dev{
+      width: 100%;
+    }
   }
 }
 
 
+@media screen and (max-width: 575.98px) {
+  .row > * {
+    width: auto;
+  }
 
+  .container_home {
+    height: 56rem;
+    padding-top: 5rem;
 
+    & .content_home{
+      flex-direction: column-reverse;
 
+      & .card_text {
+        padding-top: 2rem;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
 
+        & h1{
+          font-size: 3rem;
+          line-height: 0.6rem;
+          padding: 1rem 0 0.6rem 0;
+        }
+      
+        & h2{
+          color: $branco;
+          font-size: 1.5rem;
+          padding-top: 0.3rem;
+        }
+      }
+      
+      & .redes_sociais {
+        display: flex;
+        justify-content: center;
 
+        & li a{
+          font-size: 2rem;
+          width: 3.5rem;
+          height: 3.5rem;
+          line-height: 3rem;
+        }
+      }
+    }
+  }
+} 
+
+@media screen and (max-width: 767.98px) {
+
+  .container_home {
+    height: 59rem;
+
+    & .content_home{
+      flex-direction: column-reverse;
+
+      & .card_text {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+
+        & h1{
+          font-size: 3rem;
+          line-height: 0.6rem;
+          padding: 1rem 0 0.6rem 0;
+        }
+      
+        & h2{
+          color: $branco;
+          font-size: 1.5rem;
+          padding-top: 0.3rem;
+        }
+      }
+      
+      & .redes_sociais {
+        display: flex;
+        justify-content: center;
+
+        & li a{
+          font-size: 2rem;
+          width: 3.5rem;
+          height: 3.5rem;
+          line-height: 3rem;
+        }
+      }
+    }
+  }
+} 
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container_home {
+    height: 32rem;
+
+    & .content_home{
+
+      & .card_text {
+      
+        & h1{
+          font-size: 1.8rem;
+          line-height: 0.6rem;
+          padding: 0.6rem 0 0.2rem 0;
+        }
+      
+        & h2{
+          font-size: 1.2rem;
+          padding-top: 0.3rem;
+        }
+      }
+      
+      & .redes_sociais {
+      
+        & li a{
+          font-size: 1.4rem;
+          width: 2.6rem;
+          height: 2.6rem;
+          line-height: 2.3rem;
+        }
+      }
+    }
+  }
+} 

@@ -104,3 +104,52 @@
 }
   
 
+@media screen and (max-width: 767.98px) {
+  .content-about{
+    height: 27rem;
+
+    & .card-main{
+      background-color: $azulEscuro;
+      width: 90%;
+      height: 15rem;
+    
+      & .card-body{
+  
+        & .title{
+          text-align: center;
+          font-size: 3rem;
+          padding-bottom: 0;
+        }
+    
+        & .card-text{
+          font-size: 0.9rem;
+          text-align: center;
+        
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .content-about{
+    height: 27rem;
+
+    & .card-main{
+      width: 95%;
+      height: 17rem;
+
+      & .card-body{
+  
+        & .title{
+          font-size: 3rem;
+          padding-bottom: 0;
+        }
+    
+        & .card-text{
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}

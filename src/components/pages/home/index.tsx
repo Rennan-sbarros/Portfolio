@@ -64,13 +64,13 @@ export function Home() {
                         </ul>
                     </div>
 
-                    <div className="col-md-6 pt-5">
+                    <div className="col-md-6">
                     <img
-
-                                src={imagemPrincipal}
-                                alt="Imagem de um grupo de cachorros"
-                            >
-                        </img>
+                        className='image_dev'
+                        src={imagemPrincipal}
+                        alt="Imagem de desenvolvedor"
+                    >
+                    </img>
                     </div>
 
                 </div>
