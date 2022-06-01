@@ -10,15 +10,23 @@
     
       & h1{
         font-size: 3.5rem;
-        font-family: Righteous;
-        color: $azul;
+        font-family: $title;
+        color: $branco;
         line-height: 2.5rem;
       }
     
       & h2{
-        color: $branco;
+        color: $secundaria;
+        font-family: $content;
         font-size: 1.5rem;
-        padding-top: 1.5rem;
+        padding-bottom: 0.5rem;
+      }
+
+      & h3{
+        color: $branco;
+        font-family: $content;
+        font-size: 1.5rem;
+        
       }
     }
 
@@ -32,7 +40,7 @@
         color: $branco;
         width: 3.9rem;
         height: 3.9rem;
-        line-height: 3.7rem;
+        line-height: 3.5rem;
         text-align: center;
         display: block;
         border-radius: 100%;

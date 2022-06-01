@@ -12,7 +12,7 @@ export function Home() {
                         <div className="card_text">
                             <h2>Olá, eu sou</h2>
                             <h1>Rennan Cândido</h1>
-                            <h2>Desenvolvedor Front-end</h2>
+                            <h3>Desenvolvedor Front-end</h3>
                         </div>
                     
                         <ul className="redes_sociais">

@@ -1,8 +1,11 @@
 // Padrão de cores
 $preto: #1E2326;
-$azulEscuro: #282A36;
-$roxo: #856BAF;
-$rosa: #F776C0;
-$verde: #46C56A;
-$branco: #F3F6F8;
-$azul: #2862E9;
+$branco: #D8D8F6;
+$primaria: #011638;
+$secundaria: #F4E04D;
+
+// Tipografia
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Righteous&display=swap');
+
+$title: 'Righteous', sans-serif;
+$content: 'Open Sans', sans-serif

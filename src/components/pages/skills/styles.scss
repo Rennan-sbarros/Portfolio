@@ -3,9 +3,9 @@
     
     & .title{
         text-align: center;
-        font-family: Righteous;
+        font-family: $title;
         font-size: 3.4rem;
-        color: $azul;
+        color: $secundaria;
         padding-bottom: 4rem;
     }
     
@@ -26,7 +26,7 @@
             padding-top: 0.4rem;
             font-size: 1.5rem;
             font-weight: 600;
-            color: $azulEscuro;
+            color: $primaria;
         }
         
     }

@@ -1,6 +1,6 @@
 .footer-container{
-    border-top: 0.1rem solid $azul;
-    background-color: $azulEscuro;
+    border-top: 0.1rem solid $branco;
+    background-color: $primaria;
 
     & p{
         font-size: 1.2rem;
@@ -10,7 +10,7 @@
     }
 
     & span{
-        color: $verde;
+        color: $secundaria;
         font-weight: 600;
         font-size: 1.3rem;
     }

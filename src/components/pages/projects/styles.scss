@@ -3,9 +3,9 @@
 
   & .title{
     text-align: center;
-    font-family: Righteous;
+    font-family: $title;
     font-size: 3.4rem;
-    color: $azul;
+    color: $secundaria;
     padding-bottom: 3rem;
   }
 
@@ -16,7 +16,7 @@
   }
   
   .swiper-slide {
-    background-color: $azulEscuro;
+    background-color: $branco;
     padding: 1rem;
     border-radius: 1rem;
     
@@ -33,14 +33,14 @@
 
         & .card-titulo {
           font-size: 24px;
-          font-family: Righteous;
-          color: $rosa;
+          font-family: $title;
+          color: $secundaria;
           font-weight: 500;
         }
   
         & p {
             font-size: 1rem;
-            color: $branco;
+            color: $primaria;
             font-weight: 500;
         }
       }
@@ -53,7 +53,7 @@
     gap: 0.5rem;
 
     & .botao{
-      background-color: $azul;
+      background-color: $primaria;
       text-decoration: none;
       color: $branco;
       font-size: 1rem;
