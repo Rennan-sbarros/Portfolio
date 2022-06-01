@@ -1,32 +1,22 @@
-.content-about{
-  height: 40rem;
+.container-about{
+  height: 44rem;
 
-  & .card-main{
-    background-color: $primaria;
-    width: 94%;
-    height: 23rem;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1rem;
-  
+  & .title{
+    font-family: $title;
+    font-size: 3.3rem;
+    color: $secundaria;
+  }
+
+  & .content-about{
+    padding-top: 5rem;
+
     & .card-body{
-      padding-right: 3rem;
-
-      & .title{
-        text-align: center;
-        font-family: $title;
-        font-size: 3.4rem;
-        color: $secundaria;
-        padding-bottom: 1rem;
-      }
   
       & .card-text{
         font-family: $content;
-        font-size: 1.3rem;
-        text-align: left;
+        font-size: 1.1rem;
         color: $branco;
+        font-weight: 600;
       }
   
       & span{
@@ -34,74 +24,77 @@
       }
     }
   }
-
-  .button {
-    $speed: 0.5s;
-    text-align: center;
-    padding-top: 1rem;
-    font-size: 1.2rem;
-  
-    .btn-download{
-      opacity: 1;
-      outline: 0;
-      color: $secundaria;
-      line-height: 3rem;
-      width: 13rem;
-      position: relative;
-      text-align: center;
-      display: inline-block;
-      text-decoration: none;
-      font-family: $title;
-      text-transform: uppercase;
-      border-radius: 0.8rem;
-      border: 1px solid $primaria;
-  
-      &:hover{
-          
-          &:after{
-              opacity: 1;
-              transform: translateY(0) rotateX(0);
-          }
-          
-          &:before{
-              opacity: 0;
-              transform: translateY(50%) rotateX(90deg);
-          }
-      }
-      
-      &:after{
-          top: 0;
-          left: 0;
-          opacity: 0;
-          width: 100%;
-          color: $branco;
-          display: block;
-          transition: $speed;
-          position: absolute;
-          background: $secundaria;
-          content: attr(data-back);
-          transform: translateY(-50%) rotateX(90deg);
-          border-radius: 0.5rem;
-      }
-      
-      &:before{
-          top: 0;
-          left: 0;
-          opacity: 1;
-          color: $secundaria;
-          display: block;
-          padding: 0 30px;
-          line-height: 3rem;
-          transition: $speed;
-          position: relative;
-          background: $branco;
-          content: attr(data-front);
-          transform: translateY(0) rotateX(0);
-          border-radius: 0.5rem;
-      }
-    }
-  }    
 }
+
+
+
+//   .button {
+//     $speed: 0.5s;
+//     text-align: center;
+//     padding-top: 1rem;
+//     font-size: 1.2rem;
+  
+//     .btn-download{
+//       opacity: 1;
+//       outline: 0;
+//       color: $secundaria;
+//       line-height: 3rem;
+//       width: 13rem;
+//       position: relative;
+//       text-align: center;
+//       display: inline-block;
+//       text-decoration: none;
+//       font-family: $title;
+//       text-transform: uppercase;
+//       border-radius: 0.8rem;
+//       border: 1px solid $primaria;
+  
+//       &:hover{
+          
+//           &:after{
+//               opacity: 1;
+//               transform: translateY(0) rotateX(0);
+//           }
+          
+//           &:before{
+//               opacity: 0;
+//               transform: translateY(50%) rotateX(90deg);
+//           }
+//       }
+      
+//       &:after{
+//           top: 0;
+//           left: 0;
+//           opacity: 0;
+//           width: 100%;
+//           color: $branco;
+//           display: block;
+//           transition: $speed;
+//           position: absolute;
+//           background: $secundaria;
+//           content: attr(data-back);
+//           transform: translateY(-50%) rotateX(90deg);
+//           border-radius: 0.5rem;
+//       }
+      
+//       &:before{
+//           top: 0;
+//           left: 0;
+//           opacity: 1;
+//           color: $secundaria;
+//           display: block;
+//           padding: 0 30px;
+//           line-height: 3rem;
+//           transition: $speed;
+//           position: relative;
+//           background: $branco;
+//           content: attr(data-front);
+//           transform: translateY(0) rotateX(0);
+//           border-radius: 0.5rem;
+//       }
+//     }
+//   }    
+//}
   
 
 @media screen and (max-width: 767.98px) {
