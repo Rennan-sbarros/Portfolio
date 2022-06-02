@@ -35,6 +35,7 @@
 
 @media screen and (max-width: 575.98px) {
     .container-skills{
+        margin-top: 7rem;
         & .title{
             font-size: 3rem;
             padding-bottom: 2.5rem;
@@ -55,6 +56,8 @@
 
 @media screen and (min-width: 576px) and (max-width: 991.98px) {
     .container-skills{
+        margin-top: 9rem;
+
         & .title{
             font-size: 3rem;
             padding-bottom: 2.5rem;

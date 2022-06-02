@@ -7,7 +7,7 @@ export function About() {
                 <h1 className="title text-center">Sobre mim</h1>
                 <div className="row align-items-center content-about">
                     
-                    <div className="col-md-6">
+                    <div className="col-lg-6 col-md-6">
                         <img
                             className='image_dev_about'
                             src={imagem_about}
@@ -15,7 +15,7 @@ export function About() {
                         >
                         </img>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-lg-6 col-md-6">
                         <div className="card-body">
                             
                             <p className="card-text text-start"> <span>Olá mundo! Sou o Rennan. </span> 

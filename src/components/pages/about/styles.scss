@@ -1,6 +1,6 @@
 .container-about{
   margin-top: 10rem;
-
+  max-width: 100%;
   & .title{
     font-family: $title;
     font-size: 3.3rem;
@@ -22,6 +22,10 @@
       & span{
         color: $secundaria;
       }
+    }
+
+    & .image_dev_about{
+      width: 100%;
     }
   }
 }
@@ -97,8 +101,10 @@
 //}
   
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 992.98px) {
   .container-about{
+    margin-top: 8rem;
+
     & .title{
       font-size: 3rem;
       padding-bottom: 0;
@@ -110,6 +116,7 @@
       }
 
       & .card-body{
+        margin-top: 1rem;
         & .card-text{
           font-size: 0.9rem;
           text-align: center;
@@ -119,30 +126,4 @@
   }
 }
 
-//Não está funcionando
-@media screen and (max-width: 1199.98) {
-  .container-about{
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    flex-direction: column;
-    
-    .content-about{
-      
-
-      & .card-body{
-
-        & .title{
-          font-size: 3rem;
-          padding-bottom: 0;
-        }
-    
-        & .card-text{
-          font-size: 0.9rem;
-        }
-      }
-      
-    }
-  }
-}
   
