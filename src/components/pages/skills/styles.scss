@@ -1,6 +1,6 @@
 .container-skills{
-    height: 40rem;
-    
+    margin-top: 10rem;
+
     & .title{
         text-align: center;
         font-family: $title;
@@ -33,11 +33,28 @@
     
 }
 
-
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 575.98px) {
     .container-skills{
-        height: 32rem;
+        & .title{
+            font-size: 3rem;
+            padding-bottom: 2.5rem;
+        }
         
+        & .cards {
+            gap: 0.5rem;
+        }
+        
+        & .item-card{
+            padding: 0.25rem;
+            & h2{
+                font-size: 0.7rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991.98px) {
+    .container-skills{
         & .title{
             font-size: 3rem;
             padding-bottom: 2.5rem;

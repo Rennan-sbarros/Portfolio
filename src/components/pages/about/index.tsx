@@ -9,7 +9,7 @@ export function About() {
                     
                     <div className="col-md-6">
                         <img
-                            className='image_dev'
+                            className='image_dev_about'
                             src={imagem_about}
                             alt="Imagem de desenvolvedor"
                         >

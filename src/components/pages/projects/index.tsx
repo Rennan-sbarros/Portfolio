@@ -43,7 +43,7 @@ export function Projects(){
                                 <p>Aplicação Web de controle de finanças pessoais.</p>
                                 <div className="botoes">
                                     {/* <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a> */}
-                                    <a className="btn btn-primary botao mt-4" href="https://github.com/Rennan-sbarros/dtmoney"  target="_blank" rel="noreferrer">GitHub</a>
+                                    <a className="btn btn-primary botao" href="https://github.com/Rennan-sbarros/dtmoney"  target="_blank" rel="noreferrer">GitHub</a>
                                 </div>
                             </div>
                         </div>

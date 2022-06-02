@@ -64,7 +64,7 @@ export function Home() {
                         </ul>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-lg-6 col-md-6 col-sm-12">
                     <img
                         className='image_dev'
                         src={imagemPrincipal}
