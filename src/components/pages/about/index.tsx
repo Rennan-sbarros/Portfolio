@@ -18,8 +18,8 @@ export function About() {
                     <div className="col-lg-6 col-md-6">
                         <div className="card-body">
                             
-                            <p className="card-text text-start"> <span>Olá mundo! Sou o Rennan. </span> 
-                                Graduado em Análise e Desenvolvimento de Sistemas, curso em parceria com o Porto Digital,
+                            <p className="card-text text-start"> 
+                                Sou graduado em Análise e Desenvolvimento de Sistemas, curso em parceria com o Porto Digital,
                                 pela Universidade Tiradentes/PE. E estagiário na Autobem Brasil como desenvolvedor Front-End.
                                 Desta forma, me dedico a aprofundar os estudos em JavaScript com o framework Angular. Além de, possuir conhecimentos em Java e SpringBoot,
                                 para a construção de aplicações web.
