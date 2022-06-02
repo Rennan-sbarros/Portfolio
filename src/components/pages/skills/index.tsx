@@ -1,11 +1,11 @@
-import angular from "../../../assets/icons/angular.png";
-import bootstrap from "../../../assets/icons/bootstrap.png";
-import css from "../../../assets/icons/css-3.png";
-import html from "../../../assets/icons/html.png";
-import js from "../../../assets/icons/js.png";
-import react from "../../../assets/icons/react.png";
-import sass from "../../../assets/icons/sass.png";
-import typescript from "../../../assets/icons/typescript.png";
+import angular from "../../../assets/icons/angular.svg";
+import bootstrap from "../../../assets/icons/bootstrap.svg";
+import css from "../../../assets/icons/css-3.svg";
+import html from "../../../assets/icons/html.svg";
+import js from "../../../assets/icons/js.svg";
+import react from "../../../assets/icons/react.svg";
+import sass from "../../../assets/icons/sass.svg";
+import typescript from "../../../assets/icons/typescript.svg";
 
 export function Skills() {
     return (

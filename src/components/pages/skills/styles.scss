@@ -24,9 +24,15 @@
         padding: 1.5rem;
         & h2{
             padding-top: 0.4rem;
-            font-size: 1.5rem;
-            font-weight: 600;
+            font-size: 1rem;
+            font-weight: 700;
             color: $primaria;
+            font-family: $content;
+        }
+
+        & img{
+            width: 70px;
+            height: 60px;
         }
         
     }
@@ -49,6 +55,12 @@
             padding: 0.25rem;
             & h2{
                 font-size: 0.7rem;
+            }
+
+            & img{
+                padding-top: 0.3rem;
+                width: 50px;
+                height: 40px;
             }
         }
     }
