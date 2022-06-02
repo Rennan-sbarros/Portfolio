@@ -5,6 +5,7 @@ import letmeask from '../../../assets/images/letmeask.png'
 import popcorn from '../../../assets/images/popcorn.png'
 import todo from '../../../assets/images/to-do.png'
 import umLarParaPets from '../../../assets/images/UmLarParaPets.png'
+import { FaGithub } from 'react-icons/fa';
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -18,7 +19,7 @@ export function Projects(){
             
                 <Swiper
                     breakpoints={{
-                        767.98:{
+                        887.98:{
                             slidesPerView: 3,  
                             slidesPerGroup: 3,
                             loop: true
@@ -41,10 +42,11 @@ export function Projects(){
                             <div className="card-info">
                                 <h4 className="card-titulo">dtMoney</h4>
                                 <p>Aplicação Web de controle de finanças pessoais.</p>
-                                <div className="botoes">
-                                    {/* <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a> */}
-                                    <a className="btn btn-primary botao" href="https://github.com/Rennan-sbarros/dtmoney"  target="_blank" rel="noreferrer">GitHub</a>
-                                </div>
+                                <a href="https://github.com/Rennan-sbarros/dtmoney"  target="_blank" rel="noreferrer">
+                                    <button className="btn btn-primary botao">
+                                        <FaGithub/>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -54,10 +56,11 @@ export function Projects(){
                             <div className="card-info">
                                 <h4 className="card-titulo">Letmeask</h4>
                                 <p>Website de perguntas e respostas.</p>
-                                <div className="botoes">
-                                    {/* <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a> */}
-                                    <a className="btn btn-primary botao mt-4" href="https://github.com/Rennan-sbarros/Letmeask"  target="_blank" rel="noreferrer">GitHub</a>
-                                </div>
+                                <a href="https://github.com/Rennan-sbarros/dtmoney"  target="_blank" rel="noreferrer">
+                                    <button className="btn btn-primary botao">
+                                        <FaGithub/>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -67,10 +70,11 @@ export function Projects(){
                             <div className="card-info">
                                 <h4 className="card-titulo">PopCorn</h4>
                                 <p>Sugestão de filmes baseado no gênero escolhido.</p>
-                                <div className="botoes">
-                                    {/* <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a> */}
-                                    <a className="btn btn-primary botao" href="https://github.com/Rennan-sbarros/porcorn-movies"  target="_blank" rel="noreferrer">GitHub</a>
-                                </div>
+                                <a href="https://github.com/Rennan-sbarros/dtmoney"  target="_blank" rel="noreferrer">
+                                    <button className="btn btn-primary botao">
+                                        <FaGithub/>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -80,10 +84,11 @@ export function Projects(){
                             <div className="card-info">
                                 <h4 className="card-titulo">To-Do</h4>
                                 <p>Site para gerenciamento de tarefas.</p>
-                                <div className="botoes">
-                                    {/* <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a> */}
-                                    <a className="btn btn-primary botao mt-4" href="https://github.com/Rennan-sbarros/To-Do"  target="_blank" rel="noreferrer">GitHub</a>
-                                </div>
+                                <a href="https://github.com/Rennan-sbarros/dtmoney" target="_blank" rel="noreferrer">
+                                    <button className="btn btn-primary botao">
+                                        <FaGithub/>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -93,10 +98,11 @@ export function Projects(){
                             <div className="card-info">
                                 <h4 className="card-titulo">Um Lar para Pets</h4>
                                 <p>Rede social exclusiva para os amantes de pets em geral.</p>
-                                <div className="botoes">
-                                    {/* <a className="btn btn-primary botao" href="#" target="_blank" rel="noreferrer">Visitar site</a> */}
-                                    <a className="btn btn-primary botao" href="https://github.com/Rennan-sbarros/UmLarParaPets"  target="_blank" rel="noreferrer">GitHub</a>
-                                </div>
+                                <a href="https://github.com/Rennan-sbarros/dtmoney"  target="_blank" rel="noreferrer">
+                                    <button className="btn btn-primary botao">
+                                        <FaGithub/>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </SwiperSlide>

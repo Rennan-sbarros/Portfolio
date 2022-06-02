@@ -10,16 +10,31 @@
   }
 
   & .swiper {
-    width: 88%;
-    height: 60%;
+    width: 90%;
     padding-top: 2rem;
+    
+    & .swiper-pagination{
+      position: relative;
+      bottom: 0;
+      top: 0.3rem;
+    }
+    & .swiper-pagination-bullet{
+      background-color: $branco;
+      width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,12px));
+      height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,12px));
+      
+      opacity: var(--swiper-pagination-bullet-inactive-opacity, .8);
+    }     
+    & .swiper-pagination-bullet-active{
+      background-color: $secundaria;
+    }
   }
   
   .swiper-slide {
     background-color: $branco;
     padding: 1rem;
     border-radius: 1rem;
-    
+    height: auto;
     & .cards{
 
       & img{
@@ -29,41 +44,38 @@
       }
 
       & .card-info{
-        padding-top: 1rem;
-
         & .card-titulo {
+          margin-top: 0.5rem;
           font-size: 24px;
-          font-family: $title;
-          color: $secundaria;
-          font-weight: 500;
+          font-family: $content;
+          color: $primaria;
+          font-weight: 700;
         }
   
         & p {
-            font-size: 1rem;
-            color: $primaria;
-            font-weight: 500;
+          font-size: 1rem;
+          color: $primaria;
+          font-family: $content;
+          font-weight: 600;
+          height: 3rem;
+        }
+
+        & .botao{
+          display: flex;
+          width: 100%;
+          padding: 0.2rem 0;
+          background-color: $primaria;
+          color: $branco;
+          font-size: 1.7rem;
+          justify-content: center;
         }
       }
     }
   }
-
-  & .botoes{
-    margin: 0 auto;
-    display: inline-flex;
-    gap: 0.5rem;
-
-    & .botao{
-      background-color: $primaria;
-      text-decoration: none;
-      color: $branco;
-      font-size: 1rem;
-      text-transform: uppercase;
-      font-weight: 500;
-    }
-  }
+  
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 887.98px) {
   .container_projects{
   
     & .title{
