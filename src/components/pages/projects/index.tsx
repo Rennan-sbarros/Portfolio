@@ -11,12 +11,17 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
+const Bounce = require('react-reveal/Bounce');
+const Fade = require('react-reveal/Fade');
+
 export function Projects(){
 
     return (
         <div className="container_projects" id='projects'>
-            <h1 className="title">Projetos</h1>
-            
+            <h1 className="title">
+                <Fade bottom duration="3500" delay="1000">Projetos</Fade>
+            </h1>
+            <Bounce left duration="3500" delay="1000">
                 <Swiper
                     breakpoints={{
                         887.98:{
@@ -36,6 +41,7 @@ export function Projects(){
                     modules={[Pagination, Navigation]}
                     className="mySwiper"
                 >
+                    
                     <SwiperSlide>
                         <div className="cards">
                             <img src={dtmoney} alt=""></img>
@@ -50,6 +56,7 @@ export function Projects(){
                             </div>
                         </div>
                     </SwiperSlide>
+                    
                     <SwiperSlide>
                         <div className="cards">
                             <img src={letmeask} alt=""></img>
@@ -107,7 +114,7 @@ export function Projects(){
                         </div>
                     </SwiperSlide>
                 </Swiper>
-        </div>
-        
+                </Bounce>
+        </div>   
     )
 }

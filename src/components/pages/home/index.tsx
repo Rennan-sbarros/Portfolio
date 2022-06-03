@@ -1,17 +1,22 @@
 import imagemPrincipal from '../../../assets/images/photo_programming.svg';
 import { FaLinkedinIn, FaGithub, FaTelegram, FaWhatsapp, FaInstagram } from 'react-icons/fa';
+const Bounce = require('react-reveal/Bounce');
+const Fade = require('react-reveal/Fade');
 
 export function Home() {
     return (
         <section>
-
             <div className="container container_home">
                 <div className="row align-items-center content_home">
-                    
+                    <Bounce top cascade duration="3000">
                     <div className="col-md-6">
                         <div className="card_text">
                             <h2>Olá, eu sou</h2>
-                            <h1>Rennan Cândido</h1>
+                            <h1>
+                                <Bounce top cascade duration="3200">
+                                    Rennan Cândido
+                                </Bounce>    
+                            </h1>
                             <h3>Desenvolvedor Front-end</h3>
                         </div>
                     
@@ -63,22 +68,19 @@ export function Home() {
                             </li>
                         </ul>
                     </div>
-
+                    </Bounce>
+                    <Fade top delay="1000" duration="4500">
                     <div className="col-lg-6 col-md-6 col-sm-12">
-                    <img
-                        className='image_dev'
-                        src={imagemPrincipal}
-                        alt="Imagem de desenvolvedor"
-                    >
-                    </img>
+                        <img
+                            className='image_dev'
+                            src={imagemPrincipal}
+                            alt="Imagem de desenvolvedor"
+                        >
+                        </img>
                     </div>
-
+                    </Fade>
                 </div>
-               
-
             </div>
-
         </section>
-
     )
 }

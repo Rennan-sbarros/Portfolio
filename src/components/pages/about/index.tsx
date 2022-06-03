@@ -1,13 +1,17 @@
 import imagem_about from "../../../assets/images/photo_programming_about.svg";
+const Zoom = require('react-reveal/Zoom');
 
 export function About() {
     return (
         <section id='about'>
+            <Zoom bottom cascade duration="4000" delay="1500">
             <div className="container container-about">
-                <h1 className="title text-center">Sobre mim</h1>
+                <h1 className="title text-center">
+                    Sobre mim
+                </h1>
                 <div className="row align-items-center content-about">
                     
-                    <div className="col-lg-6 col-md-6">
+                    <div data-aos="fade-up" className="col-lg-6 col-md-6">
                         <img
                             className='image_dev_about'
                             src={imagem_about}
@@ -15,6 +19,7 @@ export function About() {
                         >
                         </img>
                     </div>
+                    
                     <div className="col-lg-6 col-md-6">
                         <div className="card-body">
                             
@@ -26,8 +31,10 @@ export function About() {
                             </p>
                         </div>
                     </div>
+                   
                 </div>
             </div>
+            </Zoom>
         </section>
     )
 }
