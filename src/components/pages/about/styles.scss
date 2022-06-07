@@ -1,5 +1,5 @@
 .container-about{
-  margin-top: 12rem;
+  margin-top: 11rem;
 
   & .title{
     font-family: $title;
@@ -15,7 +15,6 @@
       & .card-text{
         font-family: $content;
         font-size: 1.1rem;
-        color: $branco;
         font-weight: 600;
       }
     }

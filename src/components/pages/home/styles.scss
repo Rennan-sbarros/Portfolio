@@ -1,6 +1,6 @@
 .container_home {
   margin-top: 8rem;
-  margin-bottom: 15rem;
+
   & .content_home{
   
     & .card_text {
@@ -9,7 +9,6 @@
       & h1{
         font-size: 3.5rem;
         font-family: $title;
-        color: $branco;
         line-height: 2.5rem;
       }
     
@@ -21,7 +20,7 @@
       }
 
       & h3{
-        color: $branco;
+
         font-family: $content;
         font-size: 1.5rem;
         

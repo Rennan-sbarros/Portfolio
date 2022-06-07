@@ -5,6 +5,7 @@ import { Home } from "./components/pages/home";
 import { Projects } from "./components/pages/projects";
 import { Skills } from "./components/pages/skills";
 import ScrollArrow from "./hooks/scrollArrow";
+import './styles/main.scss';
 
 function App() {
 
