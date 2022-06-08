@@ -1,4 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import imagem_about from "../../../assets/images/photo_programming_about.svg";
+import { FaDownload } from 'react-icons/fa';
 const Zoom = require('react-reveal/Zoom');
 
 export function About() {
@@ -29,9 +31,15 @@ export function About() {
                                 Desta forma, me dedico a aprofundar os estudos em JavaScript com o framework Angular. Além de, possuir conhecimentos em Java e SpringBoot,
                                 para a construção de aplicações web.
                             </p>
+                            
+                            <a href="#">
+                                <button className="button-curriculo">
+                                    <span>Currículo</span>
+                                    <FaDownload />
+                                </button>
+                            </a>
                         </div>
                     </div>
-                   
                 </div>
             </div>
             </Zoom>
