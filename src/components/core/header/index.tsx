@@ -8,7 +8,7 @@ export function Header() {
     return (
             <Navbar className="navbar fixed-top" expand="lg">
                 <Container className="container-fluid">
-                    <Navbar.Brand d-lg-block className="d-none d-lg-block">Rennan</Navbar.Brand>
+                    <Navbar.Brand className="d-none d-lg-block">Rennan</Navbar.Brand>
                     
                     <Navbar.Toggle>
                         <FaBars/>
@@ -16,7 +16,7 @@ export function Header() {
 
                     <Navbar.Collapse className="navbar-collapse" id="basic-navbar-nav">
                         <Nav className="navbar-nav ms-auto mb-2 mb-lg-0" >
-                            <Nav.Link className="nav-item">
+                            <div className="nav-item">
                                 <Link
                                     className="nav-link"
                                     activeClass="active"
@@ -26,8 +26,8 @@ export function Header() {
                                     offset={-70}
                                     duration={500}
                                 > Sobre mim </Link>
-                            </Nav.Link>
-                            <Nav.Link className="nav-item">
+                            </div>
+                            <div className="nav-item">
                                 <Link
                                     className="nav-link"
                                     activeClass="active"
@@ -37,8 +37,8 @@ export function Header() {
                                     offset={-70}
                                     duration={500}
                                 > Habilidades </Link>
-                            </Nav.Link>
-                            <Nav.Link className="nav-item">
+                            </div>
+                            <div className="nav-item">
                                 <Link
                                     className="nav-link"
                                     activeClass="active"
@@ -48,7 +48,7 @@ export function Header() {
                                     offset={-70}
                                     duration={500}
                                 > Projetos </Link>
-                            </Nav.Link>
+                            </div>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

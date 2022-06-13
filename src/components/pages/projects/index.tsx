@@ -7,21 +7,21 @@ import todo from '../../../assets/images/to-do.png'
 import umLarParaPets from '../../../assets/images/UmLarParaPets.png'
 import { FaGithub } from 'react-icons/fa';
 
+import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
+
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
-const Bounce = require('react-reveal/Bounce');
-const Fade = require('react-reveal/Fade');
 
 export function Projects(){
 
     return (
         <div className="container_projects" id='projects'>
             <h1 className="title">
-                <Fade bottom duration="3500" delay="1000">Projetos</Fade>
+                <Fade bottom duration={3500} delay={1000}>Projetos</Fade>
             </h1>
-            <Bounce left duration="3500" delay="1000">
+            <Bounce left duration={3500} delay={1000}>
                 <Swiper
                     breakpoints={{
                         887.98:{

@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import imagem_about from "../../../assets/images/photo_programming_about.svg";
 import { FaDownload } from 'react-icons/fa';
-const Zoom = require('react-reveal/Zoom');
+import Zoom from 'react-reveal/Zoom';
 
 export function About() {
     return (
         <section id='about'>
-            <Zoom bottom cascade duration="4000" delay="1500">
+            <Zoom bottom cascade duration={4000} delay={1500}>
             <div className="container container-about">
                 <h1 className="title text-center">
                     Sobre mim
