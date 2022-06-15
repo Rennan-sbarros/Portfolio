@@ -6,7 +6,7 @@ import js from "../../../assets/icons/js.svg";
 import react from "../../../assets/icons/react.svg";
 import sass from "../../../assets/icons/sass.svg";
 import typescript from "../../../assets/icons/typescript.svg";
-import Fade from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 
 export function Skills() {
     return (
