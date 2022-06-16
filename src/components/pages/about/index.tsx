@@ -1,7 +1,7 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import imagem_about from "../../../assets/images/photo_programming_about.svg";
 import { FaDownload } from 'react-icons/fa';
 import Zoom from 'react-reveal/Zoom';
+import imagem_about from "../../../assets/images/photo_programming_about.svg";
+import CV_Rennan from "../../../assets/pdf/CV_Rennan.pdf";
 
 export function About() {
     return (
@@ -32,7 +32,7 @@ export function About() {
                                 para a construção de aplicações web.
                             </p>
                             
-                            <a href="#">
+                            <a href={CV_Rennan} download="Currículo Rennan">
                                 <button className="button-curriculo">
                                     <span>Currículo</span>
                                     <FaDownload />
