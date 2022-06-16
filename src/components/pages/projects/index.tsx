@@ -1,10 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation} from 'swiper';
-import dtmoney from '../../../assets/images/dt-money.png'
-import letmeask from '../../../assets/images/letmeask.png'
-import popcorn from '../../../assets/images/popcorn.png'
-import todo from '../../../assets/images/to-do.png'
-import umLarParaPets from '../../../assets/images/UmLarParaPets.png'
+import dtmoney from '../../../assets/images/dt-money.webp'
+import letmeask from '../../../assets/images/letmeask.webp'
+import popcorn from '../../../assets/images/popcorn.webp'
+import todo from '../../../assets/images/to-do.webp'
+import umLarParaPets from '../../../assets/images/UmLarParaPets.webp'
 import { FaGithub } from 'react-icons/fa';
 
 import Fade from 'react-reveal/Fade';
