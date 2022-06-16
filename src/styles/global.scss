@@ -14,3 +14,24 @@ body {
     background-color: $primaria;
     color: $branco;
 }
+
+/* Barra de rolagem: Firefox */
+*{
+    scrollbar-width: thin;
+    scrollbar-color: $branco $primaria;
+}
+  
+/*Barra de rolagem: Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 0.5rem;
+}
+  
+*::-webkit-scrollbar-track {
+    background: $primaria;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: $branco;
+    border-radius: 1.5rem;
+    height: 1rem;
+}
