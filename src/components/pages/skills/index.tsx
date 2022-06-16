@@ -19,25 +19,25 @@ export function Skills() {
             <div className="row cards">
                 <Fade left duration={3000} delay={1100}>
                     <div className="col item-card">
-                        <img src={angular} alt="Angular"/>
+                        <img src={angular} alt="Angular" loading="lazy"/>
                         <h2>Angular</h2>
                     </div>
                 </Fade>
                 <Fade left duration={3000} delay={1300}>
                     <div className="col item-card">
-                        <img src={react} alt="React"/>
+                        <img src={react} alt="React" loading="lazy"/>
                         <h2>React</h2>
                     </div>
                 </Fade>
                 <Fade left duration={3000} delay={1500}>
                     <div className="col item-card">
-                        <img src={js} alt="Javascript"/>
+                        <img src={js} alt="Javascript" loading="lazy"/>
                         <h2>JavaScript</h2>
                     </div>
                 </Fade>
                 <Fade left duration={3000} delay={1700}>
                     <div className="col item-card">
-                        <img src={typescript} alt="Typescript"/>
+                        <img src={typescript} alt="Typescript" loading="lazy"/>
                         <h2>TypeScript</h2>
                     </div>
                 </Fade>
@@ -46,25 +46,25 @@ export function Skills() {
 
                 <Fade left duration={3000} delay={1900}>
                     <div className="col item-card">
-                        <img src={html} alt="HTML5"/>
+                        <img src={html} alt="HTML5" loading="lazy"/>
                         <h2>HTM5</h2>
                     </div>
                 </Fade>
                 <Fade left duration={3000} delay={2100}>
                     <div className="col item-card">
-                        <img src={css} alt="CSS3"/>
+                        <img src={css} alt="CSS3" loading="lazy"/>
                         <h2>CSS3</h2>
                     </div>
                 </Fade>
                 <Fade left duration={3000} delay={2300}>
                     <div className="col item-card">
-                        <img src={sass} alt="Sass"/>
+                        <img src={sass} alt="Sass" loading="lazy"/>
                         <h2>Sass</h2>
                     </div>
                 </Fade>
                 <Fade left duration={3000} delay={2500}>
                     <div className="col item-card">
-                        <img src={bootstrap} alt="Bootstrap"/>
+                        <img src={bootstrap} alt="Bootstrap" loading="lazy"/>
                         <h2>Bootstrap</h2>
                     </div>
                 </Fade>

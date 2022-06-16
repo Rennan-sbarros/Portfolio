@@ -75,6 +75,7 @@ export function Home() {
                             className='image_dev'
                             src={imagemPrincipal}
                             alt="Imagem de desenvolvedor"
+                            loading="lazy"
                         >
                         </img>
                     </div>

@@ -18,6 +18,7 @@ export function About() {
                             className='image_dev_about'
                             src={imagem_about}
                             alt="Imagem de desenvolvedor"
+                            loading="lazy"
                         >
                         </img>
                     </div>

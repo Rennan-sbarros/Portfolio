@@ -44,7 +44,7 @@ export function Projects(){
                     
                     <SwiperSlide>
                         <div className="cards">
-                            <img src={dtmoney} alt=""></img>
+                            <img src={dtmoney} alt="Projeto dtmoney" loading="lazy"></img>
                             <div className="card-info">
                                 <h4 className="card-titulo">dtMoney</h4>
                                 <p>Aplicação Web de controle de finanças pessoais.</p>
@@ -59,7 +59,7 @@ export function Projects(){
                     
                     <SwiperSlide>
                         <div className="cards">
-                            <img src={letmeask} alt=""></img>
+                            <img src={letmeask} alt="Projeto letmeask" loading="lazy"></img>
                             <div className="card-info">
                                 <h4 className="card-titulo">Letmeask</h4>
                                 <p>Website de perguntas e respostas.</p>
@@ -73,7 +73,7 @@ export function Projects(){
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="cards">
-                            <img src={popcorn} alt=""></img>
+                            <img src={popcorn} alt="Projeto popcorn" loading="lazy"></img>
                             <div className="card-info">
                                 <h4 className="card-titulo">PopCorn</h4>
                                 <p>Sugestão de filmes baseado no gênero escolhido.</p>
@@ -87,7 +87,7 @@ export function Projects(){
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="cards">
-                            <img src={todo} alt=""></img>
+                            <img src={todo} alt="Projeto To do" loading="lazy"></img>
                             <div className="card-info">
                                 <h4 className="card-titulo">To-Do</h4>
                                 <p>Site para gerenciamento de tarefas.</p>
@@ -101,7 +101,7 @@ export function Projects(){
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="cards">
-                            <img src={umLarParaPets} alt=""></img>
+                            <img src={umLarParaPets} alt="Projeto Um lar para pets" loading="lazy"></img>
                             <div className="card-info">
                                 <h4 className="card-titulo">Um Lar para Pets</h4>
                                 <p>Rede social exclusiva para os amantes de pets em geral.</p>
