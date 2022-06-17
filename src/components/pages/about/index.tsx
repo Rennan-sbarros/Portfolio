@@ -1,16 +1,20 @@
 import { FaDownload } from 'react-icons/fa';
-import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 import imagem_about from "../../../assets/images/photo_programming_about.svg";
 import CV_Rennan from "../../../assets/pdf/CV_Rennan.pdf";
 
 export function About() {
     return (
         <section id='about'>
-            <Zoom bottom cascade duration={4000} delay={1500}>
+            
             <div className="container container-about">
+                <Fade bottom duration={3500}>
                 <h1 className="title text-center">
                     Sobre mim
                 </h1>
+                </Fade>
+
+                <Fade bottom duration={3500}>
                 <div className="row align-items-center content-about">
                     
                     <div data-aos="fade-up" className="col-lg-6 col-md-6">
@@ -42,8 +46,8 @@ export function About() {
                         </div>
                     </div>
                 </div>
+                </Fade>
             </div>
-            </Zoom>
         </section>
     )
 }

@@ -18,6 +18,7 @@ export function Header() {
                         <Nav className="navbar-nav ms-auto mb-2 mb-lg-0" >
                             <div className="nav-item">
                                 <Link
+                                    href="nav-link"
                                     className="nav-link"
                                     activeClass="active"
                                     to="about"
@@ -29,6 +30,7 @@ export function Header() {
                             </div>
                             <div className="nav-item">
                                 <Link
+                                href="nav-link"
                                     className="nav-link"
                                     activeClass="active"
                                     to="skills"
@@ -40,6 +42,7 @@ export function Header() {
                             </div>
                             <div className="nav-item">
                                 <Link
+                                href="nav-link"
                                     className="nav-link"
                                     activeClass="active"
                                     to="projects"

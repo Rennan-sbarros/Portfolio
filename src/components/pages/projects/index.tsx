@@ -19,9 +19,9 @@ export function Projects(){
     return (
         <div className="container_projects" id='projects'>
             <h1 className="title">
-                <Fade bottom duration={3500} delay={1000}>Projetos</Fade>
+                <Fade bottom duration={3500}>Projetos</Fade>
             </h1>
-            <Bounce left duration={3500} delay={1000}>
+            <Bounce buttom duration={3500}>
                 <Swiper
                     breakpoints={{
                         887.98:{
@@ -46,12 +46,10 @@ export function Projects(){
                         <div className="cards">
                             <img src={dtmoney} alt="Projeto dtmoney" loading="lazy"></img>
                             <div className="card-info">
-                                <h4 className="card-titulo">dtMoney</h4>
+                                <h1 className="card-titulo">dtMoney</h1>
                                 <p>Aplicação Web de controle de finanças pessoais.</p>
-                                <a href="https://github.com/Rennan-sbarros/dtmoney"  target="_blank" rel="noreferrer">
-                                    <button className="btn btn-primary botao">
-                                        <FaGithub/>
-                                    </button>
+                                <a className="access-github" href="https://github.com/Rennan-sbarros/dtmoney" target="_blank" rel="noreferrer" title="Github">
+                                    <FaGithub/>                          
                                 </a>
                             </div>
                         </div>
@@ -61,12 +59,10 @@ export function Projects(){
                         <div className="cards">
                             <img src={letmeask} alt="Projeto letmeask" loading="lazy"></img>
                             <div className="card-info">
-                                <h4 className="card-titulo">Letmeask</h4>
+                                <h1 className="card-titulo">Letmeask</h1>
                                 <p>Website de perguntas e respostas.</p>
-                                <a href="https://github.com/Rennan-sbarros/dtmoney"  target="_blank" rel="noreferrer">
-                                    <button className="btn btn-primary botao">
-                                        <FaGithub/>
-                                    </button>
+                                <a className="access-github" href="https://github.com/Rennan-sbarros/dtmoney" target="_blank" rel="noreferrer" title="Github">
+                                    <FaGithub/>
                                 </a>
                             </div>
                         </div>
@@ -75,12 +71,10 @@ export function Projects(){
                         <div className="cards">
                             <img src={popcorn} alt="Projeto popcorn" loading="lazy"></img>
                             <div className="card-info">
-                                <h4 className="card-titulo">PopCorn</h4>
+                                <h1 className="card-titulo">PopCorn</h1>
                                 <p>Sugestão de filmes baseado no gênero escolhido.</p>
-                                <a href="https://github.com/Rennan-sbarros/dtmoney"  target="_blank" rel="noreferrer">
-                                    <button className="btn btn-primary botao">
-                                        <FaGithub/>
-                                    </button>
+                                <a className="access-github" href="https://github.com/Rennan-sbarros/dtmoney" target="_blank" rel="noreferrer" title="Github">
+                                    <FaGithub/>
                                 </a>
                             </div>
                         </div>
@@ -89,12 +83,10 @@ export function Projects(){
                         <div className="cards">
                             <img src={todo} alt="Projeto To do" loading="lazy"></img>
                             <div className="card-info">
-                                <h4 className="card-titulo">To-Do</h4>
+                                <h1 className="card-titulo">To-Do</h1>
                                 <p>Site para gerenciamento de tarefas.</p>
-                                <a href="https://github.com/Rennan-sbarros/dtmoney" target="_blank" rel="noreferrer">
-                                    <button className="btn btn-primary botao">
-                                        <FaGithub/>
-                                    </button>
+                                <a className="access-github" href="https://github.com/Rennan-sbarros/dtmoney" target="_blank" rel="noreferrer" title="Github">
+                                    <FaGithub/>
                                 </a>
                             </div>
                         </div>
@@ -103,12 +95,10 @@ export function Projects(){
                         <div className="cards">
                             <img src={umLarParaPets} alt="Projeto Um lar para pets" loading="lazy"></img>
                             <div className="card-info">
-                                <h4 className="card-titulo">Um Lar para Pets</h4>
+                                <h1 className="card-titulo">Um Lar para Pets</h1>
                                 <p>Rede social exclusiva para os amantes de pets em geral.</p>
-                                <a href="https://github.com/Rennan-sbarros/dtmoney"  target="_blank" rel="noreferrer">
-                                    <button className="btn btn-primary botao">
-                                        <FaGithub/>
-                                    </button>
+                                <a className="access-github" href="https://github.com/Rennan-sbarros/dtmoney" target="_blank" rel="noreferrer" title="Github">
+                                    <FaGithub/>
                                 </a>
                             </div>
                         </div>

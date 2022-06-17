@@ -13,29 +13,27 @@ export function Skills() {
         <section className="container container-skills" id="skills">
             
             <h1 className="title">
-                <Fade bottom duration={4000} delay={900}>Habilidades</Fade>
+                <Fade bottom duration={3500}>Habilidades</Fade>
             </h1>
 
             <div className="row cards">
-                <Fade left duration={3000} delay={1100}>
+                <Fade left duration={3000}>
                     <div className="col item-card">
                         <img src={angular} alt="Angular" loading="lazy"/>
                         <h2>Angular</h2>
                     </div>
-                </Fade>
-                <Fade left duration={3000} delay={1300}>
+                
+                
                     <div className="col item-card">
                         <img src={react} alt="React" loading="lazy"/>
                         <h2>React</h2>
                     </div>
-                </Fade>
-                <Fade left duration={3000} delay={1500}>
+                
                     <div className="col item-card">
                         <img src={js} alt="Javascript" loading="lazy"/>
                         <h2>JavaScript</h2>
                     </div>
-                </Fade>
-                <Fade left duration={3000} delay={1700}>
+                
                     <div className="col item-card">
                         <img src={typescript} alt="Typescript" loading="lazy"/>
                         <h2>TypeScript</h2>
@@ -44,25 +42,22 @@ export function Skills() {
 
                     <div className="w-100"></div>
 
-                <Fade left duration={3000} delay={1900}>
+                <Fade left duration={3000}>
                     <div className="col item-card">
                         <img src={html} alt="HTML5" loading="lazy"/>
                         <h2>HTM5</h2>
                     </div>
-                </Fade>
-                <Fade left duration={3000} delay={2100}>
+                
                     <div className="col item-card">
                         <img src={css} alt="CSS3" loading="lazy"/>
                         <h2>CSS3</h2>
                     </div>
-                </Fade>
-                <Fade left duration={3000} delay={2300}>
+                
                     <div className="col item-card">
                         <img src={sass} alt="Sass" loading="lazy"/>
                         <h2>Sass</h2>
                     </div>
-                </Fade>
-                <Fade left duration={3000} delay={2500}>
+                
                     <div className="col item-card">
                         <img src={bootstrap} alt="Bootstrap" loading="lazy"/>
                         <h2>Bootstrap</h2>
