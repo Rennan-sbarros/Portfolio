@@ -1,62 +1,57 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Container, Nav, Navbar} from "react-bootstrap";
 import { Link } from "react-scroll";
 import { FaBars } from "react-icons/fa";
 
 export function Header() {
     
-    return (
-            <Navbar className="navbar fixed-top" expand="lg">
-                <Container className="container-fluid">
-                    <Navbar.Brand className="d-none d-lg-block">Rennan</Navbar.Brand>
-                    
-                    <Navbar.Toggle>
-                        <FaBars/>
-                    </Navbar.Toggle>
-
-                    <Navbar.Collapse className="navbar-collapse" id="basic-navbar-nav">
-                        <Nav className="navbar-nav ms-auto mb-2 mb-lg-0" >
-                            <div className="nav-item">
-                                <Link
-                                    href="nav-link"
-                                    className="nav-link"
-                                    activeClass="active"
-                                    to="about"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-70}
-                                    duration={500}
-                                > Sobre mim </Link>
-                            </div>
-                            <div className="nav-item">
-                                <Link
-                                href="nav-link"
-                                    className="nav-link"
-                                    activeClass="active"
-                                    to="skills"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-70}
-                                    duration={500}
-                                > Habilidades </Link>
-                            </div>
-                            <div className="nav-item">
-                                <Link
-                                href="nav-link"
-                                    className="nav-link"
-                                    activeClass="active"
-                                    to="projects"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-70}
-                                    duration={500}
-                                > Projetos </Link>
-                            </div>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
-       
-        
+    return (  
+       <nav className="navbar navbar-expand-lg fixed-top">
+            <div className="container-fluid">
+                <a className="navbar-brand" href="#">.Rennan</a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"><FaBars/></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li className="nav-item">
+                        <Link
+                            href="nav-link"
+                            className="nav-link"
+                            activeClass="active"
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        > Sobre mim </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link
+                            href="nav-link"
+                            className="nav-link"
+                            activeClass="active"
+                            to="skills"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        > Habilidades </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link
+                            href="nav-link"
+                            className="nav-link"
+                            activeClass="active"
+                            to="projects"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        > Projetos </Link>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
     ) 
 }
