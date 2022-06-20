@@ -1,5 +1,6 @@
 import imagemPrincipal from '../../../assets/images/photo_programming.svg';
 import { FaLinkedinIn, FaGithub, FaTelegram, FaWhatsapp, FaInstagram } from 'react-icons/fa';
+import Fade from 'react-reveal/Fade';
 
 export function Home() {
     return (
@@ -7,11 +8,11 @@ export function Home() {
             <div className="container container_home">
                 <div className="row align-items-center content_home">
                     
+                    <Fade bottom duration={3500}>
                     <div className="col-md-6">
                         <div className="card_text">
                             <h1>Olá, eu sou</h1>
                             <h2>
-                                
                                 Rennan Cândido
                             </h2>
                             <h3>Desenvolvedor Front-end</h3>
@@ -70,17 +71,17 @@ export function Home() {
                             </li>
                         </ul>
                     </div>
-                    
+                    </Fade>
+                    <Fade top duration={3500}>
                     <div className="col-lg-6 col-md-6 col-sm-12">
                         <img
                             className='image_dev'
                             src={imagemPrincipal}
                             alt="Imagem de desenvolvedor"
-                            loading="lazy"
                         >
                         </img>
                     </div>
-                    
+                    </Fade>
                 </div>
             </div>
         </section>
