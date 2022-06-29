@@ -6,7 +6,7 @@
    	Landing Page constrúido em React.
 </p>
 
-![Resultado final do projeto](assets/images/portfolio.png)
+![Resultado final do projeto](src/assets/images/portfolio.png)
 
 <h4 align="center"><a href="https://dev-rennan.netlify.app/">Visite o portóflio</a></h4>
 
