@@ -39,6 +39,12 @@
         display: block;
         border-radius: 100%;
         border: 0.063rem solid $branco;
+        transition: all 0.5s;
+      }
+
+      & li a:hover{
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
       }
     }
     
