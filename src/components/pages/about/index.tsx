@@ -38,11 +38,12 @@ export function About() {
                             </p>
                             
                             <a href={CV_Rennan} download="Currículo Rennan">
-                                <button className="button-curriculo">
+                                <button className="btn button-curriculo">
                                     <span>Currículo</span>
                                     <FaDownload />
                                 </button>
                             </a>
+                            
                         </div>
                     </div>
                 </div>
