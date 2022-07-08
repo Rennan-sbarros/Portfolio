@@ -1,13 +1,16 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Link } from "react-scroll";
 import { FaBars } from "react-icons/fa";
-
+import { ReactComponent as Logo } from "../../../assets/images/logo.svg";
 export function Header() {
     
     return (  
        <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container-fluid">
-                <a className="navbar-brand">.Rennan</a>
+                <div className="logo">
+                    <Logo />
+                </div>
+                
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"><FaBars/></span>
                 </button>

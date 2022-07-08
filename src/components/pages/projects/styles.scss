@@ -1,17 +1,21 @@
+#projects{
+  background-color: $secundaria;
+}
 .container_projects{
-  margin: 10rem 0; 
-  
+  padding-top: 3.5rem;
+  padding-bottom: 4rem;
   & .title{
     text-align: center;
     font-family: $title;
-    font-size: 3.4rem;
-    color: $secundaria;
-    padding-bottom: 3rem;
+    font-size: 2rem;
+    color: $branco;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
   }
 
   & .swiper {
     width: 90%;
-    padding-top: 2rem;
     
     & .swiper-pagination{
       position: relative;
@@ -19,44 +23,43 @@
       top: 0.3rem;
     }
     & .swiper-pagination-bullet{
-      background-color: $branco;
+      background-color: $primaria;
       width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,12px));
       height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,12px));
       
       opacity: var(--swiper-pagination-bullet-inactive-opacity, .8);
     }     
     & .swiper-pagination-bullet-active{
-      background-color: $secundaria;
+      background-color: $branco;
     }
   }
   
   .swiper-slide {
-    background-color: $branco;
-    padding: 1rem;
-    border-radius: 1rem;
+    background-color: $primaria;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
     height: auto;
     & .cards{
 
       & img{
         width: 100%; 
-        height: 11.9rem;
-        border-radius: 0.7rem;
+        height: 9rem;
+        border-radius: 0.4rem;
       }
 
       & .card-info{
         & .card-titulo {
           margin-top: 0.5rem;
-          font-size: 24px;
+          font-size: 1.2rem;
           font-family: $content;
-          color: $primaria;
-          font-weight: 700;
+          color: $branco;
+          font-weight: 600;
         }
   
         & p {
-          font-size: 1rem;
-          color: $primaria;
+          font-size: 0.9rem;
+          color: $branco;
           font-family: $content;
-          font-weight: 600;
           height: 3rem;
         }
 
@@ -64,10 +67,16 @@
           display: flex;
           width: 100%;
           padding: 0.2rem 0;
-          background-color: $primaria;
-          color: $branco;
+          background-color: $branco;
+          color: $secundaria;
           font-size: 1.7rem;
           justify-content: center;
+          border-radius: 0.4rem;
+        }
+
+        & .access-github:hover{
+          -webkit-transform: scale(1.05);
+          transform: scale(1.05);
         }
       }
     }
@@ -79,7 +88,7 @@
   .container_projects{
   
     & .title{
-      font-size: 3rem;
+      font-size: 2rem;
       padding-bottom: 1rem;
     }
   }  

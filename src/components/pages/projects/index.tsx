@@ -41,7 +41,18 @@ export function Projects(){
                     modules={[Pagination, Navigation]}
                     className="mySwiper"
                 >
-                    
+                    <SwiperSlide>
+                        <div className="cards">
+                            <img src={popcorn} alt="Projeto popcorn" loading="lazy"></img>
+                            <div className="card-info">
+                                <h1 className="card-titulo">PopCorn</h1>
+                                <p>Sugestão de filmes baseado no gênero escolhido.</p>
+                                <a className="access-github" href="https://github.com/Rennan-sbarros/dtmoney" target="_blank" rel="noreferrer" title="Github">
+                                    <FaGithub/>
+                                </a>
+                            </div>
+                        </div>
+                    </SwiperSlide>
                     <SwiperSlide>
                         <div className="cards">
                             <img src={dtmoney} alt="Projeto dtmoney" loading="lazy"></img>
@@ -61,18 +72,6 @@ export function Projects(){
                             <div className="card-info">
                                 <h1 className="card-titulo">Letmeask</h1>
                                 <p>Website de perguntas e respostas.</p>
-                                <a className="access-github" href="https://github.com/Rennan-sbarros/dtmoney" target="_blank" rel="noreferrer" title="Github">
-                                    <FaGithub/>
-                                </a>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="cards">
-                            <img src={popcorn} alt="Projeto popcorn" loading="lazy"></img>
-                            <div className="card-info">
-                                <h1 className="card-titulo">PopCorn</h1>
-                                <p>Sugestão de filmes baseado no gênero escolhido.</p>
                                 <a className="access-github" href="https://github.com/Rennan-sbarros/dtmoney" target="_blank" rel="noreferrer" title="Github">
                                     <FaGithub/>
                                 </a>

@@ -15,12 +15,12 @@ export function Home() {
                         <div className="card_text">
                             <Fade top duration={2000}>
                             <h1>Olá, eu sou</h1>
-                            <h2>Rennan Cândido</h2>
+                            <h2>Rennan Cândido.</h2>
                             </Fade>
                             <TypeWriterEffect
                                 startDelay={400}
                                 cursorColor="white"
-                                text="Desenvolvedor Front-end"
+                                text="Desenvolvedor Front-end."
                                 typeSpeed={100}
                             />
                         </div>

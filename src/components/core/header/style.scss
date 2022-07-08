@@ -2,22 +2,21 @@
 .navbar{
     background-color: $primaria;
     border-bottom: 0.01rem solid #282A36;
-    padding: 0 2rem;
+    padding: 0.4rem 3.5rem;
 }
 
 .navbar-brand {
-    color: $secundaria;
-    font-family: $title;
-    font-size: 2.8rem;
-    
+    color: $branco;
+    font-family: 'Righteous';
+    font-size: 1.7rem;
 }
 .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-    color: $secundaria;
+    color: $branco;
 }
 
 .navbar-nav .nav-link {
     color: $branco;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: $content;
     font-weight: 500;
     cursor: pointer;
@@ -34,7 +33,7 @@
 
 
 .nav-item > .active {
-    border-bottom: 1px solid $branco;
+    border-bottom: 0.01rem solid $branco;
 }
 
 .navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
@@ -49,7 +48,7 @@
 
 @media screen and (max-width: 575.98px){
     .navbar{
-        padding: 0;
+        padding: 0.4rem 0.2rem;
     }
 
     .navbar-brand {

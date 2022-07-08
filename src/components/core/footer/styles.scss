@@ -1,29 +1,30 @@
 .footer-container{
-    border-top: 0.1rem solid $branco;
+    border-top: 0.01rem solid #282A36;
     background-color: $primaria;
 
     & p{
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 500;
         color: $branco;
         margin-bottom: 0;
+        font-family: $content;
     }
 
     & span{
-        color: $secundaria;
+        color: $branco;
         font-weight: 600;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 575.98px) {
     .footer-container{
         & p{
-            font-size: 1rem;
+            font-size: 0.6rem;
         }
     
         & span{
-            font-size: 1rem;
+            font-size: 0.6rem;
         }
     }
 }

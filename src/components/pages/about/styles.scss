@@ -1,10 +1,15 @@
+#about{
+  background-color: $secundaria;
+  margin-top: 7rem;
+}
 .container-about{
-  margin-top: 11rem;
-
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   & .title{
     font-family: $title;
-    font-size: 3.3rem;
-    color: $secundaria;
+    font-size: 2rem;
+    color: $branco;
+    font-weight: 600;
   }
 
   & .content-about{
@@ -14,27 +19,27 @@
   
       & .card-text{
         font-family: $content;
-        font-size: 1.1rem;
-        font-weight: 600;
+        font-size: 1rem;
+        font-weight: 400;
       }
 
       a{
         text-decoration: none;
       }
       .btn {
-        height: 40px;
+        height: 2.5rem;
         text-align: center;
-        width: 150px;
+        width: 9.4rem;
         cursor: pointer;
         
       }
       .button-curriculo {
-        color: $secundaria;
+        color: $branco;
         font-family: $content;
-        font-weight: bold;
+        font-weight: 600;
         transition: all 0.3s;
         position: relative;
-        border-radius: 10px;
+        border-radius: 0.7rem;
       }
       .button-curriculo span {
         transition: all 0.3s;
@@ -51,8 +56,8 @@
         z-index: 1;
         opacity: 0;
         transition: all 0.3s;
-        border-top-width: 1px;
-        border-bottom-width: 1px;
+        border-top-width: 0.063rem;
+        border-bottom-width: 0.063rem;
         border-top-style: solid;
         border-bottom-style: solid;
         border-top-color: rgba(255,255,255,0.5);
@@ -75,7 +80,7 @@
         height: 100%;
         z-index: 1;
         transition: all 0.3s;
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: #2d2d7336;
         border-radius: 0.3rem;
       }
       .button-curriculo:hover::after {
@@ -92,8 +97,11 @@
 }
 
 @media screen and (max-width: 575.98px) {
+  #about{
+    margin-top: 5rem;
+  }
   .container-about{
-    margin-top: 8rem;
+    margin-top: 5rem;
   
     & .content-about{
       & .image_dev_about{
@@ -121,7 +129,7 @@
     margin-top: 8rem;
 
     & .title{
-      font-size: 3rem;
+      font-size: 2rem;
       padding-bottom: 0;
     }
   

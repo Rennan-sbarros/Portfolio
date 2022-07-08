@@ -33,8 +33,7 @@ export function About() {
                             <p className="card-text text-start"> 
                                 Sou graduado em Análise e Desenvolvimento de Sistemas, curso em parceria com o Porto Digital,
                                 pela Universidade Tiradentes/PE. E estagiário na Autobem Brasil como desenvolvedor Front-End.
-                                Desta forma, me dedico a aprofundar os estudos em JavaScript com o framework Angular. Além de, possuir conhecimentos em Java e SpringBoot,
-                                para a construção de aplicações web.
+                                Desta forma, me dedico a aprofundar os estudos em JavaScript com o framework Angular. Além de, possuir conhecimentos em React.
                             </p>
                             
                             <a href={CV_Rennan} download="Currículo Rennan">
