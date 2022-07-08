@@ -1,11 +1,13 @@
 .container-skills{
-    margin-top: 10rem;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
 
     & .title{
         text-align: center;
         font-family: $title;
-        font-size: 3.4rem;
-        color: $secundaria;
+        font-size: 2rem;
+        color: $branco;
+        font-weight: 600;
         padding-bottom: 4rem;
     }
     
@@ -19,14 +21,14 @@
     }
     
     & .item-card{
-        background-color: $branco;
+        background-color: $secundaria;
         border-radius: 0.6rem;
-        padding: 1.5rem;
+        padding: 1.4rem;
         & h2{
             padding-top: 0.4rem;
             font-size: 1rem;
-            font-weight: 700;
-            color: $primaria;
+            font-weight: 500;
+            color: $branco;
             font-family: $content;
         }
 
@@ -41,9 +43,8 @@
 
 @media screen and (max-width: 575.98px) {
     .container-skills{
-        margin-top: 7rem;
+        margin-top: 4rem;
         & .title{
-            font-size: 3rem;
             padding-bottom: 2.5rem;
         }
         
@@ -71,7 +72,6 @@
         margin-top: 9rem;
 
         & .title{
-            font-size: 3rem;
             padding-bottom: 2.5rem;
         }
         

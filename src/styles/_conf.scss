@@ -1,11 +1,11 @@
 // Padrão de cores modo Dark
-$preto: #1E2326;
-$branco: #ffffff;
-$primaria: #00010B;
-$secundaria: #EE346D;
+$preto: #000000;
+$branco: #FDFDFD;
+$secundaria: #141433;
+$primaria: #0F0F26;
 
 // Tipografia
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Righteous&display=swap');
-
-$title: 'Righteous', sans-serif;
-$content: 'Open Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;500;600;700;800;900&display=swap');
+$title: 'Saira', sans-serif;
+$content: 'Saira', sans-serif;
