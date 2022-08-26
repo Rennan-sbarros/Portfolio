@@ -8,7 +8,7 @@
 
 ![Resultado final do projeto](src/assets/images/portfolio.png)
 
-<h4 align="center"><a href="https://dev-rennan.netlify.app/">Visite o portóflio</a></h4>
+<h4 align="center"><a href="https://rennancandido.netlify.app/">Visite o portóflio</a></h4>
 
 <h3> 📚 Seções</h3>
 
